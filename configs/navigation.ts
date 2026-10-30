@@ -81,6 +81,12 @@ export const menuGroups = [
         status: "ready",
       },
       {
+        title: "Token Generator",
+        href: "/token",
+        description: "Random API keys, secrets and UUIDs.",
+        status: "ready",
+      },
+      {
         title: "README Architect",
         href: "/readme",
         description: "Composable README builder.",

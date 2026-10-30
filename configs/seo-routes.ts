@@ -29,9 +29,9 @@ export const categoryRoutes: RouteSeo[] = [
   {
     path: "/tools/generate",
     name: "Generators",
-    title: "Developer Generators: Passwords, README, CSS",
+    title: "Developer Generators: Passwords, Tokens, README",
     description:
-      "Generate secure random passwords, build a README.md from reusable blocks, design layered CSS box shadows, and create a 50–950 color scale from one hex color.",
+      "Generate secure passwords and API tokens, build a README.md from reusable blocks, design layered CSS box shadows, and create a 50–950 color scale.",
   },
   {
     path: "/tools/optimize",
@@ -150,6 +150,13 @@ export const toolRoutes: RouteSeo[] = [
     title: "Random Password Generator with Strength Check",
     description:
       "Generate random 8–64 character passwords in your browser with the Web Crypto API. Pick character sets, skip look-alike characters and check password strength.",
+  },
+  {
+    path: "/tools/generate/token",
+    name: "Token Generator",
+    title: "Token Generator: Random API Keys & Secrets",
+    description:
+      "Generate secure random tokens, API keys and UUIDs in hex, Base64, Base64 URL or alphanumeric, with an optional prefix and bulk output. Runs in your browser.",
   },
   {
     path: "/tools/generate/readme",

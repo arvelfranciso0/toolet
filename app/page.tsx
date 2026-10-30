@@ -48,7 +48,7 @@ const descriptionMap: Record<string, string> = {
   "Data Tools":
     "Format, compare, and convert between JSON, CSV, and other structured data formats instantly.",
   Generators:
-    "Quickly bootstrap assets with secure password generation, README builders, CSS shadow presets, and color palettes.",
+    "Quickly bootstrap assets with secure passwords and API tokens, README builders, CSS shadow presets, and color palettes.",
   Optimization:
     "Minify and sanitize your web assets to improve performance and code cleanliness.",
   "Design Utilities":

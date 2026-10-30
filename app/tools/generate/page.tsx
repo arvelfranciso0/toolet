@@ -1,6 +1,6 @@
 import { JsonLd } from "@/components/shared/json-ld";
 import { categorySchemas, getRouteMetadata } from "@/lib/seo";
-import { Key, FileText, Droplets, Palette } from "lucide-react";
+import { Key, KeyRound, FileText, Droplets, Palette } from "lucide-react";
 import { ToolGrid } from "@/components/shared/tool-grid";
 import { Tool } from "@/types/tools";
 import Header from "@/components/shared/header";
@@ -11,6 +11,13 @@ const tools: Tool[] = [
     desc: "Generate cryptographically secure passwords with customizable entropy, length, and character complexity.",
     href: "/tools/generate/password",
     icon: <Key size={18} />,
+    status: "ready",
+  },
+  {
+    title: "Token Generator",
+    desc: "Create secure random tokens, API keys and UUIDs in hex, Base64 or alphanumeric, with an optional prefix and bulk output.",
+    href: "/tools/generate/token",
+    icon: <KeyRound size={18} />,
     status: "ready",
   },
   {
@@ -47,7 +54,7 @@ export default function GeneratorsHome() {
       <Header
         category="Generators"
         title="Generators & Builders"
-        description="Generate secure passwords, README files, layered CSS box shadows, and color scales."
+        description="Generate secure passwords, API tokens, README files, layered CSS box shadows, and color scales."
       />
       <ToolGrid tools={tools} columns={3} />
     </div>
