@@ -28,7 +28,7 @@ Free to use, no sign-up required. Open any tool and start working right away.
 |---|---|
 | 📝 **Text** | Regex Tester · Case Converter · Slug Generator · Base64 & URL Encoder |
 | 🧾 **Data** | JSON Formatter · JSON Diff · JSON Viewer · JSON → CSV · CSV → JSON |
-| ✨ **Generators** | Password Generator · README Generator · Box Shadow Generator · Color Palette Generator |
+| ✨ **Generators** | Password Generator · Token Generator · README Generator · Box Shadow Generator · Color Palette Generator |
 | ⚡ **Optimization** | SVG Optimizer · HTML Sanitizer |
 | 🎨 **Design** | PX to REM Converter · Contrast Checker · Fluid Typography · Aspect Ratio Calculator |
 | 💻 **Developer** | Markdown Preview · Diff Checker · Git Cheat Sheet |
