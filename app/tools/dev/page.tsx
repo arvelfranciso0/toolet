@@ -1,6 +1,6 @@
 import { JsonLd } from "@/components/shared/json-ld";
 import { categorySchemas, getRouteMetadata } from "@/lib/seo";
-import { FileCode, GitCompare, GitBranch } from "lucide-react";
+import { FileCode, GitCompare, GitBranch, Terminal } from "lucide-react";
 import { ToolGrid } from "@/components/shared/tool-grid";
 import { Tool } from "@/types/tools";
 import Header from "@/components/shared/header";
@@ -27,6 +27,13 @@ const tools: Tool[] = [
     icon: <GitBranch size={18} />,
     status: "ready",
   },
+  {
+    title: "Linux & WSL Commands",
+    desc: "Searchable Ubuntu terminal and WSL reference: packages, files, permissions, processes, networking, and Windows interop.",
+    href: "/tools/dev/linux",
+    icon: <Terminal size={18} />,
+    status: "ready",
+  },
 ];
 
 const path = "/tools/dev";
@@ -40,7 +47,7 @@ export default function DevToolsHome() {
       <Header
         category="Developer Tools"
         title="Developer Tools"
-        description="Preview Markdown, compare code side by side, and look up Git commands."
+        description="Preview Markdown, compare code side by side, and look up Git, Linux, and WSL commands."
       />
       <ToolGrid tools={tools} columns={3} />
     </div>

@@ -54,7 +54,7 @@ const descriptionMap: Record<string, string> = {
   "Design Utilities":
     "Essential tools for UI/UX developers including unit conversion and contrast validation.",
   "Developer Tools":
-    "Enhance your workflow with markdown previews, git references, and code diffing.",
+    "Enhance your workflow with markdown previews, code diffing, and Git, Linux, and WSL command references.",
   Security:
     "Client-side security tools for debugging JWTs and generating secure cryptographic hashes.",
   Playgrounds:
