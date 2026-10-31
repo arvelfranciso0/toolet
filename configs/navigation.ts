@@ -182,6 +182,12 @@ export const menuGroups = [
         description: "Interactive git reference.",
         status: "ready",
       },
+      {
+        title: "Linux & WSL Commands",
+        href: "/linux",
+        description: "Ubuntu terminal and WSL reference.",
+        status: "ready",
+      },
     ],
   },
 

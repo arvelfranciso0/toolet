@@ -50,9 +50,9 @@ export const categoryRoutes: RouteSeo[] = [
   {
     path: "/tools/dev",
     name: "Developer Tools",
-    title: "Developer Tools: Markdown, Diff & Git Reference",
+    title: "Developer Tools: Markdown, Diff, Git & Linux",
     description:
-      "Preview GitHub-flavored Markdown as you type, compare two code snippets in split or unified view, and search a Git command cheat sheet. Free, in your browser.",
+      "Preview GitHub-flavored Markdown as you type, compare code in split or unified view, and search Git, Linux and WSL command cheat sheets. Free, in your browser.",
   },
   {
     path: "/tools/security",
@@ -244,6 +244,13 @@ export const toolRoutes: RouteSeo[] = [
     title: "Git Cheat Sheet: Searchable Command Reference",
     description:
       "Search 88 common Git commands for setup, branching, rebasing, stashing, tags and more, and click any command to copy it. Includes Conventional Commit types.",
+  },
+  {
+    path: "/tools/dev/linux",
+    name: "Linux & WSL Commands",
+    title: "Linux & WSL Commands Cheat Sheet for Ubuntu",
+    description:
+      "Search 88 Ubuntu and WSL commands for apt, files, permissions, processes, networking and Windows interop, labelled PowerShell or Bash. Click any command to copy.",
   },
   // Security
   {
